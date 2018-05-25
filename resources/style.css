@@ -12,6 +12,8 @@ header {
   flex-direction: row;
   align-items: center;
   background-color: black;
+  width: 75%;
+  margin: 0 auto;
 }
 
 header img {
