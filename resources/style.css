@@ -32,17 +32,16 @@ header img {
 }
 
 /* body section stylesheet */
-.master-main-container {
-  width: 100%;
-  margin: 0 auto;
-}
 
 .main-container {
   background-image: url("./images/moto.jpeg");
   height: 25rem;
   display: flex;
   background-size: cover;
-  margin: 0 auto;
+}
+
+.main-container-middle {
+  margin: auto;
   width: 960px;
 }
 
@@ -79,13 +78,16 @@ header img {
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 0;
-
+  width: 960px;
+  margin: auto;
 }
 
 /* product images */
 
 .product-location-section {
   background-color: white;
+  width: 960px;
+  margin: auto;
 }
 
 .product-section {
@@ -152,4 +154,9 @@ footer {
   text-align: left;
   background-color: black;
   height: 5rem;
+}
+
+footer h6 {
+  width: 960px;
+  margin: auto;
 }
