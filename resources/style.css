@@ -12,8 +12,6 @@ header {
   flex-direction: row;
   align-items: center;
   background-color: black;
-  width: 75%;
-  margin: 0 auto;
 }
 
 header img {
@@ -23,9 +21,10 @@ header img {
 
 .company {
   display: flex;
-  justify-content: space-between;
   padding: 0.66rem;
   height: 1.5rem;
+  width: 960px;
+  margin: 0 auto;
 }
 
 .company-header {
@@ -33,11 +32,18 @@ header img {
 }
 
 /* body section stylesheet */
+.master-main-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .main-container {
   background-image: url("./images/moto.jpeg");
   height: 25rem;
   display: flex;
   background-size: cover;
+  margin: 0 auto;
+  width: 960px;
 }
 
 .main-container-text {
