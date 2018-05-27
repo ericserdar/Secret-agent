@@ -84,6 +84,9 @@ header img {
   margin: auto;
 }
 
+.ribbon .mobile-nav {
+  display: none;
+}
 /* product images */
 
 .product-location-section {
@@ -161,4 +164,81 @@ footer {
 footer h6 {
   width: 960px;
   margin: auto;
+}
+
+/* css for screens under 1024px */
+
+@media only screen and (max-width: 1024px) {
+  .ribbon ul {
+    display: none;
+  }
+  .ribbon .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .product-section {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/* css for screens under 470px */
+
+@media only screen and (max-width: 470px) {
+  .company-header h2 {
+    display: none;
+  }
+
+  .company {
+    justify-content: center;
+  }
+
+  .main-container {
+    height: 15rem;
+  }
+
+  .main-container-text {
+    height: 5rem;
+    width: 100%;
+  }
+
+  .main-container-text h3 {
+  font-family: Helvetica;
+  font-size: 0.77rem;
+  font-weight: bold;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  }
+
+  .main-container-text h1 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 2rem;
+  }
+
+  .main-container-middle {
+    margin-bottom: 0.25rem;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .hours {
+    display: none;
+  }
+
+  .product-location-section {
+    width: 100%;
+  }
+
+  .product-section {
+    width: 90%;
+  }
 }
