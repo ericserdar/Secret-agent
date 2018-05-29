@@ -189,7 +189,7 @@ footer h6 {
 
 /* css for screens under 470px */
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 700px) {
   .company-header h2 {
     display: none;
   }
@@ -202,10 +202,19 @@ footer h6 {
     height: 15rem;
   }
 
+  nav {
+    display: flex;
+  }
+
+  .mobile-nav {
+    display: flex;
+    text-align: center;
+  }
+
   .main-container-text {
     height: 5rem;
     width: 100%;
-  }
+}
 
   .main-container-text h3 {
   font-family: Helvetica;
@@ -226,11 +235,11 @@ footer h6 {
     margin-bottom: 0.25rem;
   }
 
-  .watch {
-    display: none;
-  }
+.product-images {
+  width: 100%
+}
 
-  .hours {
+.product-images.watch {
     display: none;
   }
 
@@ -240,5 +249,18 @@ footer h6 {
 
   .product-section {
     width: 90%;
+  }
+
+  .location-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .location-container {
+    width: 90%;
+  }
+
+  .location {
+    width: inherit;
   }
 }
